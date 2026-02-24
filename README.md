@@ -33,9 +33,3 @@ docker-compose up --build
    uv run streamlit run ui/app.py
    ```
 
-## 📂 Project Structure
-- `api/`: FastAPI backend with prediction logic.
-- `ui/`: Streamlit web interface.
-- `tests/`: Verification and testing scripts.
-- `best_linear_model.pkl`: Pre-trained Scikit-learn pipeline.
-- `StudentPerformanceFactors.csv`: Dataset used for training and re-training.
