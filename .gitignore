@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Tests
+/tests
+
+# Model
+/best_linear_model.pkl
+
+# Dataset
+/StudentPerformanceFactors.csv
