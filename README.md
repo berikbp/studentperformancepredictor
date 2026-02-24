@@ -32,4 +32,3 @@ docker-compose up --build
    ```bash
    uv run streamlit run ui/app.py
    ```
-
