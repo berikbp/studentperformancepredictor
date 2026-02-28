@@ -3,7 +3,6 @@ import joblib
 import pandas as pd
 import os
 from api.models import StudentData, PredictionResponse
-from api.utils import train_and_save_model
 
 app = FastAPI(title="Student Performance Prediction API")
 
@@ -19,7 +18,6 @@ def load_model():
             print("Model loaded successfully.")
     except Exception as e:
         print(f"Error loading model: {e}. Attempting to re-train...")
-        model = train_and_save_model()
 
 @app.get("/health")
 def health_check():

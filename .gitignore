@@ -12,8 +12,7 @@ wheels/
 # Tests
 /tests
 
-# Model
-/best_linear_model.pkl
+
 
 # Dataset
 /StudentPerformanceFactors.csv
